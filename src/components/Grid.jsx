@@ -14,7 +14,7 @@ export default function Grid () {
                 </Col>
 
                 <Col sm={12} md={4}>
-                <h2>Exiting Future Projects?</h2>
+                <h2>Exciting Future Projects?</h2>
                 <p>I have a strong desire to utilize my skills, knowledge and creativity  to drive positive change wherever I go.
                 One of my present objectives is to excel not only as a software engineer but also as a well-rounded individual. I am committed to pursuing personal growth in addition to professional development, recognizing that achieving success in one area can positively impact the other.
                 </p>
