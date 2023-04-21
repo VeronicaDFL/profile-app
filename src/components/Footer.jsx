@@ -2,12 +2,12 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function Footer() {
 const currentYear = new Date().getFullYear();
-const gitHubUrl = "https://github.com/veronicadfl";
+const gitHubUrl = "https://github.com/veronicadfl/profile-app";
     return(
         <footer>
             <Container>
                 <Row>
-                 <Col><p>&copy; {currentYear} Your Name
+                 <Col><p>&copy; {currentYear} Veronica De Felice
                  <br />
                  <a href={gitHubUrl} 
                  target="_blank"

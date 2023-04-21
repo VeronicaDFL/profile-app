@@ -1,18 +1,16 @@
-.container {
-    padding: 40px;
-}
-.carousel.container {
-    padding: 15px;
-}
-
 body {
-    background-color:white ;
+    background-image: url(../public/images/rosa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
+    
 
 h1 {
-
     font-weight: 700;
 }
+
 h2 {
     font-weight:700;
 }
@@ -23,14 +21,62 @@ h2 {
   
     }
 
+    h3 {
+        font-size: x-large;
+    }
+
+    
+
     .quote-container q {
         font-size: 105%;
     }
 
     .grid-container {
-        background-color: coral ;
+        background-color: rgba(245, 221, 212, 0.73) ;
+        padding: 20px;
     }
 
     .grid-container h2 {
-        color: white;
+        color: black;
+        padding: 10px;
+        
     }
+    
+    .about-container {
+
+        background-color: rgba(255, 255, 255, 0.598);
+        padding: 20px;
+        
+    }
+ 
+    .btn {
+        font-size: 20px;
+        padding: 10px;
+        background-color: rgba(7, 6, 6, 0.123);
+        border: black;
+        color: black;
+        margin: 5px;
+        
+    }
+    
+    
+    .container img {
+        width: 60% ;
+        padding: 20px;
+    
+    }
+    
+    
+    .container {
+        padding: 40px;
+       
+    }
+    .carousel.container {
+        padding: 15px;
+    }
+
+
+    
+    
+        
+   

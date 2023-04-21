@@ -7,7 +7,7 @@ export default function Quote () {
         <Container className= "quote-container">
             <Row className = "text-center">
                 <Col>
-                <p><q>Veni, vidi, vici.</q></p> - Julius Cesare
+                <p><q>Veni, Vidi, Vici.</q></p> - Julius Cesare
                 </Col>
             </Row>
         </Container>

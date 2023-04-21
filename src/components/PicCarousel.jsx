@@ -1,31 +1,34 @@
-import { Col, Container, Row,Carousel } from "react-bootstrap";
+import { Col, Container, Row,Carousel, CarouselItem } from "react-bootstrap";
 
 export default function PicCarousel() {
 
     return(
         <section>
-        <Container className="carousel-container">
+        <Container className="carousel-container ">
             <Row>
                 <Col className= "p=0">
-                    <Carousel fade>
-
-                        <img src= "https://picsum.photos/200/300"
+                    <Carousel>
+                        <Carousel.Item>
+                        <img src= "/images/photo1.jpg" 
                         className= "dblock w-100"
-                        alt="slide"></img>
+                        alt="fade"></img>
+                        <h2>Zoey!</h2>
+                        </Carousel.Item>
                     <Carousel.Item>
-
-                        <h2>First Item</h2>
-                        <p>First item are great and i musty learn to wroite english</p>
+                       <img src="/images/photo2.jpg" className ='dblock w-100'alt="slide" ></img>
+                       <h2>Bryce Canyon</h2>
                     </Carousel.Item>
+
                 
                     <Carousel.Item>
-                        <h2>Second Item</h2>
-                        <p>First item are great and i musty learn to wroite english</p>
+                    <img src="/images/photo3.jpg" className ='dblock w-100'alt="slide" ></img>
+                        <h2>Angels Landing</h2>
                     </Carousel.Item>
                     
+                    
                     <Carousel.Item>
-                        <h2>Second Item</h2>
-                        <p>First item are great and i musty learn to wroite english</p>
+                    <img src="/images/photo4.jpg" className ='dblock w-100'alt="slide" ></img>
+                        <h2>Steven and I</h2>
                     </Carousel.Item>
                 </Carousel>
                 </Col>
