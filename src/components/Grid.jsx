@@ -22,7 +22,7 @@ export default function Grid () {
             
             <Col >
             <h2>Ideal Work Place?</h2>
-            <p>ideal workplace is one where employees work together towards a shared purpose and contribute their maximum effort. The workplace has a strong culture where values are embraced, and growth is encouraged. The environment is supportive, collaborative, and empowers individuals to share their unique perspectives and ideas. This kind of workplace would be fulfilling and inspiring.
+            <p>An ideal workplace to me is one where employees work together towards a shared purpose and contribute their maximum effort. The workplace has a strong culture where values are embraced, and growth is encouraged. The environment is supportive, collaborative, and empowers individuals to share their unique perspectives and ideas. This kind of workplace would be fulfilling and inspiring.
              </p>
             </Col>
            
