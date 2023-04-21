@@ -12,23 +12,23 @@ export default function PicCarousel() {
                         <img src= "/images/photo1.jpg" 
                         className= "dblock w-100"
                         alt="fade"></img>
-                        <h2>Zoey!</h2>
+                        <p><mark >Zoey!</mark></p>
                         </Carousel.Item>
                     <Carousel.Item>
                        <img src="/images/photo2.jpg" className ='dblock w-100'alt="slide" ></img>
-                       <h2>Bryce Canyon</h2>
+                       <p><mark>Bryce Canyon</mark></p>
                     </Carousel.Item>
 
                 
                     <Carousel.Item>
                     <img src="/images/photo3.jpg" className ='dblock w-100'alt="slide" ></img>
-                        <h2>Angels Landing</h2>
+                       <p><mark>Angels Landing</mark></p>
                     </Carousel.Item>
                     
                     
                     <Carousel.Item>
                     <img src="/images/photo4.jpg" className ='dblock w-100'alt="slide" ></img>
-                        <h2>Steven and I</h2>
+                        <p><mark>On the water!</mark></p>
                     </Carousel.Item>
                 </Carousel>
                 </Col>

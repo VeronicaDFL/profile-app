@@ -76,7 +76,10 @@ h2 {
     }
 
 
-    
+ mark {
+    background-color: rgba(254, 252, 251, 0.583);
+    padding: 10px;
+ }   
     
         
    
